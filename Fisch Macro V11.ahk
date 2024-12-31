@@ -1,8 +1,8 @@
 ﻿#SingleInstance Force
-setkeydelay, -1
-setmousedelay, -1
+setkeydelay, -3
+setmousedelay, -2
 setbatchlines, -1
-SetTitleMatchMode 2
+SetTitleMatchMode 1
 
 CoordMode, Tooltip, Relative
 CoordMode, Pixel, Relative
@@ -40,7 +40,7 @@ HoldRodCastDuration := 1000
 WaitForBobberDelay := 1000
 
 ; Set this to your navigation key, IMPORTANT
-NavigationKey := "ň"
+NavigationKey := "\"
 
 ;     SHAKE SETTINGS     ====================================================================================================;
 
@@ -51,18 +51,18 @@ ShakeMode := "Navigation"
 FishBarColorTolerance := 0
 
 ; Seconds for click shake to be considered failed
-ClickShakeFailsafe := 20
+ClickShakeFailsafe := 6
 ; Color range to scan for "shake" text
 ClickShakeColorTolerance := 1
 ; Delay between each scan in miliseconds
-ClickScanDelay := 100
+ClickScanDelay := 1
 ; How many scans before clicking regardless of repeats
 RepeatBypassCounter := 10
 
 ; Seconds for navigation shake to be considered failed
-NavigationShakeFailsafe := 30
+NavigationShakeFailsafe := 6
 ; Delay between each "S+Enter" in miliseconds
-NavigationSpamDelay := 10
+NavigationSpamDelay := 1
 
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
