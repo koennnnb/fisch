@@ -1,8 +1,8 @@
 ﻿#SingleInstance Force
-setkeydelay, -1
+setkeydelay, -5
 setmousedelay, -1
 setbatchlines, -1
-SetTitleMatchMode 2
+SetTitleMatchMode 1
 
 CoordMode, Tooltip, Relative
 CoordMode, Pixel, Relative
@@ -40,7 +40,7 @@ HoldRodCastDuration := 1000
 WaitForBobberDelay := 1000
 
 ; Set this to your navigation key, IMPORTANT
-NavigationKey := "ň"
+NavigationKey := "\"
 
 ;     SHAKE SETTINGS     ====================================================================================================;
 
