@@ -1,8 +1,8 @@
 ﻿#SingleInstance Force
-setkeydelay, -1
+setkeydelay, -3
 setmousedelay, -1
 setbatchlines, -1
-SetTitleMatchMode 2
+SetTitleMatchMode 1
 
 CoordMode, Tooltip, Relative
 CoordMode, Pixel, Relative
